@@ -1,0 +1,155 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: cursive;
+    
+}
+
+}
+.theek{
+    width: 80%;
+    margin: auto;    
+}
+.hai{
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+    
+    
+}
+ul{
+    flex: 1;
+    text-align: right;
+        
+}
+ul li{
+    display: inline;
+    list-style: none;
+    margin: 0 25px;
+    }
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 0 10px;
+    position: relative;
+    }
+ul li a::after{
+    content: '';
+    width: 0;
+    height: 10px;
+    background: #f14a60;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -55px;
+    transition: 0.3s;
+        
+    
+}
+
+ul li a:hover::after{
+    width: 100%;
+}
+
+.taskbar img{
+    height: 25px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+.taskbar img{
+    
+    margin-left: 40px;
+
+}
+.banner{
+    display: flex;
+    margin-top: 80px;
+    
+}
+.left-column{
+    flex-basis: 50%;
+    }
+.right-column img{
+    width: 100%;
+    padding-right: 10px;
+    
+}
+.search{
+    width: 45%;
+    display: flex;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #ddd;
+    margin: 10px 0 30px;
+    
+}
+.search img{
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+    
+}
+.search input{
+    width: 100%;
+    margin-left: 15px;
+    font-size: 17px;
+    border: 0;
+    outline: none;
+}
+.left-column h1{
+    font-size: 50px;
+    
+}
+.left-column h3{
+    font-size: 25px;
+}
+span{
+    color: darkred;
+}
+
+.left-column p{
+    font-size: 12px;
+    color: darkgray;
+    margin: 50px 0;
+}
+.btn button{
+    padding: 7px 30px;
+    margin-right: 15px;
+    outline: none;
+    border: 1px solid #fb7381;
+    border-radius: 20px;
+    cursor: pointer;
+    color: #fb7381;
+    background: transparent;
+}
+
+.btn .guidline{
+    font-family: fantasy;
+    background-color: wheat;
+    color: cornflowerblue;
+}
+
+.btn{
+    margin-bottom: 40px;
+}
+
+.social{
+    width: 150px;
+    text-align: center;
+    opacity: .4;
+    position: relative;
+    
+}
+.social img{
+    height: 20px;
+   
+}
+
+
+
+
+
+
+
+
+
